@@ -42,7 +42,7 @@ const igualdade = (num1 === num2)
 
 console.log()
 
-const nota = 34
+const nota = 79
 console.log("Nota: ", nota)
 
 if (nota>=90)
