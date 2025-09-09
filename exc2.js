@@ -5,33 +5,57 @@ const mult = (num1 * num2)
 const sub = (num1 - num2)
 const add = (num1 + num2)
 const div = (num1 / num2)
-console.log(mult, sub, add,div)
 
-const comparacao = boolean(num1>num2)
+console.log("Número 1: ", num1)
+console.log("Número 2: ", num2)
+console.log()
+
+console.log("----OPERAÇÕES----")
+console.log()
+console.log("ADIÇÃO: ", num1, " + ", num2, " = ", (num1+num2))
+console.log()
+console.log("SUBTRAÇÃO: ", num1, " - ", num2, " = ", (num1-num2))
+console.log()
+console.log("MULTPLICAÇÃO: ", num1, " * ", num2, " = ", (num1*num2))
+console.log()
+console.log("DIVISÃO: ", num1, "/", num2, " = ", (num1/num2))
+console.log()
+console.log()
+
+console.log("----COMPARAÇÃO----")
+console.log()
+
+const comparacao = (num1>num2)
     if (comparacao.false)
         console.log("Número 1 é menor que número 2.")
 
     else console.log("Número 1 é maior que número 2.")
+console.log()
 
-const igualdade = boolean(num1 === num2)
+console.log("----TESTE DE IGUALDADE----")
+console.log()
+
+const igualdade = (num1 === num2)
     if (igualdade.true)
         console.log("Numero 1 é igual ao número 2.")
     else console.log("Numero 1 é diferente do número 2.")
 
-const nota = 34
+console.log()
 
-let notaA = nota.boolean(nota>=90)
+const nota = 34
+console.log("Nota: ", nota)
+
+if (nota>=90)
     console.log("nota A")
 
-let notaB = nota.boolean(nota>=80, nota<=89)
-    console.log("nota B")
+if (nota>=80 && nota<=89)
+    console.log("Nota B")
 
-let notaC = nota.boolean(nota>=70, nota<=79)
-    console.log("nota C")
+if (nota>=70 && nota<=79)
+    console.log("Nota C")
 
-let notaD = nota.boolean(nota>=60, nota<=69)
-    console.log("nota D")
+if (nota>=60 && nota<=69)
+    console.log("Nota D")
 
-let notaF = nota.boolean(nota<60)
-    console.log("nota F")
-
+if (nota<60)
+    console.log("Nota F")
