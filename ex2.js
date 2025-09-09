@@ -1,5 +1,5 @@
-let num1 = 4
-let num2 = 3
+let num1 = 45
+let num2 = 30
  let nota = 75
 
 
