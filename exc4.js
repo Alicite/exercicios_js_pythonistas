@@ -40,3 +40,4 @@ function ehpar(ehonoeh){
 
 ehpar(num)
 console.log()
+
