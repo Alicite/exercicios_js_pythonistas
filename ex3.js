@@ -1,17 +1,25 @@
-const nomes = ["Ana", "Bruno", "Carla", "Diego"];
-for (const nome of nomes) {
-  console.log(nome);
+for (let num = 1;num <= 10;num +=1){
+    console.log(num)
 }
 
-console.log('---');
-
-// 4. Objeto com propriedades e loop for...in para imprimir chave e valor
-const pessoa = {
-  nome: "Idenilson",
-  idade: 39,
-  cidade: "São Paulo SP"
-};
-
-for (const chave in pessoa) {
-  console.log(`${chave}: ${pessoa[chave]}`);
+let numero = 0
+while (numero < 21) {
+    if (numero % 2 === 0) {
+        console.log(numero)
+    }
+    numero += 2
 }
+
+let nomes = ["Deny","walmir","Jeovana"]
+for (let nome of nomes) {
+    console.log(nome)
+}
+
+let pessoa = {
+    nome: "Idenilson",
+idade: 39,
+cidade: "Joinville"
+ }
+ for (let chave in pessoa) {
+    console.log(`${chave}: ${pessoa[chave]}`)
+ }
