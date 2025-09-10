@@ -43,9 +43,9 @@ for (let nome of nomes) {
 console.log("Objeto com propriedades:")
 
 let pessoa = {
-    nome: "Nicolas",
-    idade: 30,
-    cidade: "Joinville",
+    Nome: "Nicolas",
+    Idade: 30,
+    Cidade: "Joinville",
 }
 for (let chave in pessoa) {
     console.log(`${chave}: ${pessoa[chave]}`)
