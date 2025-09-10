@@ -9,7 +9,7 @@ console.log('---');
 const pessoa = {
   nome: "Idenilson",
   idade: 39,
-  cidade: "São Paulo"
+  cidade: "São Paulo SP"
 };
 
 for (const chave in pessoa) {
