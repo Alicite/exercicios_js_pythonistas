@@ -4,13 +4,13 @@
 
 // 1. Declare uma variável `nome` usando `let` e atribua a ela o seu nome.
 
-// 1. Declare uma constante `anoNascimento` usando `const` e atribua a ela o seu ano de nascimento.
+// 2. Declare uma constante `anoNascimento` usando `const` e atribua a ela o seu ano de nascimento.
 
-// 1. Calcule a sua idade e armazene-a em uma variável `idade` usando `let`.
+// 3. Calcule a sua idade e armazene-a em uma variável `idade` usando `let`.
 
-// 1. Declare uma variável `isEstudante` e atribua a ela um valor booleano (`true` ou `false`).
+// 4. Declare uma variável `isEstudante` e atribua a ela um valor booleano (`true` ou `false`).
 
-// 1. Imprima no console o valor e o tipo de cada uma dessas variáveis usando `console.log()` e o operador `typeof`.
+// 5. Imprima no console o valor e o tipo de cada uma dessas variáveis usando `console.log()` e o operador `typeof`.
 
 // **Exemplo de Saída Esperada:**
 
