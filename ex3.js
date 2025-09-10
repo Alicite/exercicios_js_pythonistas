@@ -12,4 +12,42 @@
 
 
 // 1.
+console.log("Loop de 1 a 10:")
+for (let num = 1;num<=10;num+=1) {
+    console.log(num)
+}
+
+// 2.
+
+console.log("-------------------------------")
+
+console.log("Loop While número pares de 0 a 20:")
+let numero = 0
+while (numero < 21) {
+    if (numero % 2 === 0) {
+        console.log(numero)
+    }
+    numero +=1
+}
+
+//3.
+console.log("Lista de nomes com loop:")
+
+let nomes = ["Nicolas","Jeovana","Walmir","Deny","Pedro"]
+for (let nome of nomes) {
+    console.log(nome)
+}
+
+//4.
+
+console.log("Objeto com propriedades:")
+
+let pessoa = {
+    nome: "Nicolas",
+    idade: 30,
+    cidade: "Joinville",
+}
+for (let chave in pessoa) {
+    console.log(`${chave}: ${pessoa[chave]}`)
+}
 
