@@ -34,17 +34,16 @@ console.log()
 console.log("----Propriedades de um Objeto----")
 console.log()
 
-let carro = [
-    marca = "Toyota",
-    modelo = "Corolla",
-    ano = "2011",
-    cor = "Prata"
-]
+let carro = new Object()
+    carro.marca = "Toyota"
+    carro.modelo = "Corolla"
+    carro.ano = "2011"
+    carro.cor = "Prata"
 
 console.log("Carro: ")
 console.log()
 
-for(caracteristicas of carro){
-    console.log(caracteristicas)
+for(caracteristicas in carro){
+    console.log(caracteristicas, " = ", carro[caracteristicas]);
 }
 console.log()
