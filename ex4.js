@@ -10,3 +10,7 @@ function somar(n1, n2) {
 const saudacao = function(nome="Ximbica") {
     return `Olá, ${nome}!`
 }
+
+//Crie uma função ehPar que receba um número e 
+//retorne true se for par e false se for ímpar.
+const ehPar = num => num % 21 === 0 ? true : false
