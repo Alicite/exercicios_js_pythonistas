@@ -3,3 +3,10 @@
 function somar(n1, n2) {
     return n1 + n2
 }
+
+// Crie uma função chamada saudacao que receba um nome como parâmetro 
+// e imprima "Olá, [nome]!" no console. Use um parâmetro padrão para 
+// o nome caso nenhum seja fornecido.
+const saudacao = function(nome="Ximbica") {
+    return `Olá, ${nome}!`
+}
