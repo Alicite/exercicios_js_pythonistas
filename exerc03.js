@@ -9,4 +9,15 @@ while (numero < 21) {
     }
     numero += 1
 }
-
+let nomes = ["Nicolas", "Jeovana", "Walmir", "Deny", "Pedro"]
+for (let nome of nomes) {
+    console.log(nome)
+}
+let pessoa = {
+    nome: "Leticia",
+    idade: 30,
+    Cidade: "Paris"
+}
+for (let chave in pessoa) {
+    console.log(`${chave}: ${pessoa[chave]}`)
+}
