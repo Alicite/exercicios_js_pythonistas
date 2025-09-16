@@ -41,3 +41,34 @@ function ehpar(ehonoeh){
 ehpar(num)
 console.log()
 
+
+
+
+
+
+
+function aplicarOperacao(callback, num1, num2){
+    return callback(num1, num2)
+}
+
+function subtrair(num1, num2){
+    return `${num1} - ${num2} = ${num1-num2}`
+}
+
+function somar(num1, num2){
+    return `${num1} + ${num2} = ${num1+num2}`
+}
+
+function multiplicar(num1, num2){
+    return `${num1} * ${num2} = ${num1*num2}`
+}
+
+function dividir(num1, num2){
+    if (num2===0)
+        return `É impossível dividir por 0.`
+    else
+        return `${num1} / ${num2} = ${num1/num2}`    
+}
+
+op = [multiplicar,  dividir, somar, subtrair]
+
