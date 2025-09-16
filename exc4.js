@@ -70,5 +70,7 @@ function dividir(num1, num2){
         return `${num1} / ${num2} = ${num1/num2}`    
 }
 
-op = [multiplicar,  dividir, somar, subtrair]
-
+console.log(aplicarOperacao(subtrair, 10, 10))
+console.log(aplicarOperacao(somar, 10, 10))
+console.log(aplicarOperacao(dividir, 10, 10))
+console.log(aplicarOperacao(multiplicar, 10, 10))
