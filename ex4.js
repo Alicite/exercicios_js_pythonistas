@@ -1,5 +1,5 @@
-function somar(num1, num2) {
-    return `${num1} + ${num2}  =  ${num1+num2}`
+function somar(n1, n2) {
+    return `${n1} + ${n2}  =  ${n1+n2}`
 }
 console.log("")
 console.log("Função somar")
@@ -28,27 +28,23 @@ function aplicarOperacao(callback, n1, n2){
     return callback(n1, n2)
 }
 
-function subitrair(num1, num2){
-    return `${num1} - ${um2} = ${num1-num2}`
+function subitrair(n1, n2){
+    return `${n1} - ${n2} = ${n1-n2}`
 }
 
-function dividir(num1, num2){
-    if(num2==0){
+function dividir(n1, n2){
+    if(n2==0){
         return "Impossivel dividir por 0"
     } else {
-        return `${num1} / ${um2} = ${num1/num2}`
+        return `${n1} / ${n2} = ${n1/n2}`
     } 
     
 }
 
-function multiplicar(num1, num2){
-    return `${num1} * ${um2} = ${num1*num2}`
+function multiplicar(n1, n2){
+    return `${n1} * ${n2} = ${n1*n2}`
 }
 
-op = [somar, subitrair, multiplicar, dividir]
-for (f in op){
-    console.log(aplicarOperacao(f, 5, 5))
-}
 console.log(aplicarOperacao(somar, 5, 5))
 console.log(aplicarOperacao(subitrair, 5, 5))
 console.log(aplicarOperacao(multiplicar, 5, 5))
