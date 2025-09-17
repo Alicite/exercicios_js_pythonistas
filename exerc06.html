@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício DOM</title>
+  <style>
+ .destaque {
+ color: purple;
+ font-weight: bold;
+ }
+  </style>
+</head>
+<body>
+  <h1 id="titulo-dom">Bem-vindo ao Exercício de DOM!</h1>
+  <p class="texto-paragrafo">Este é um parágrafo inicial.</p>
+  <button id="botao-mudar-texto">Mudar Texto</button>
+  <div id="container-novo-elemento"></div>
+  <script >
+     const titulo = document.getElementById('titulo-dom');
+    titulo.textContent = 'DOM Manipulado!';
+
+    const paragrafo = document.querySelector('.texto-paragrafo');
+    paragrafo.classList.add('destaque');
+
+    const botao = document.getElementById('botao-mudar-texto');
+    botao.addEventListener('click', () => {
+      paragrafo.textContent = 'Texto alterado pelo clique!';
+    });
+
+    const novoParagrafo = document.createElement('p');
+    novoParagrafo.textContent = 'Este é um novo parágrafo criado via JS!';
+    const container = document.getElementById('container-novo-elemento');
+    container.appendChild(novoParagrafo);
+  </script>
+</body>
+</html>

@@ -1,9 +1,14 @@
-const cores =  ['Amarelo', 'Roxo','Azul'];
+let cores =  ['Amarelo', 'Roxo','Azul'];
 cores.push('Rosa');
-cores.shift();
+cores.unshift('Amarelo');
+console.log(cores);
+cores.shift()
+cores.pop()
 console.log(cores);
 
-const livro = {
+
+
+let livro = {
     titulo: 'O Senhor dos Anéis',
     autor : 'j.R.R. Tolkien',
     anoPublicacao: 1954
