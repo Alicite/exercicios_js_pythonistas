@@ -19,3 +19,12 @@ const livro = {
     anoPublicacao: 1954
 };
 console.log(livro)
+
+// Adicione uma nova propriedade genero ao objeto livro.
+livro.genero = "Fantasia"
+livro['numeroDePaginas'] = 1568
+console.log(livro)
+
+// Imprima o titulo e o autor do livro.
+console.log(livro.titulo)
+console.log(livro.autor)
