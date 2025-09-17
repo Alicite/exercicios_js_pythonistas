@@ -5,7 +5,6 @@ console.log(cores);
 cores.shift();
 console.log(cores);
 
-
 let livro = { 
     titulo: "Dom Casmurro", 
       autor: "Machado de Assis", 
@@ -17,7 +16,6 @@ console.log(`titulo: ${livro.titulo}`);
 console.log(`autor:', ${livro.autor}`);
 console.log(`ano:', ${livro.ano}`);
 console.log(`genero:', ${livro.genero}`);
-
 
 console.log(Object.keys(livro));
 console.log(Object.values(livro));
