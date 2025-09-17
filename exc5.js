@@ -20,8 +20,16 @@ let livro = {
 
 livro.genero = "Conto de Fadas"
 
-console.log(`Título = ${livro.titulo}`)
-console.log(`Gênero = ${livro.genero}`)
-console.log(`Autor = ${livro.autor}`)
 
+let chaves = Object.keys(livro)
+let valores = Object.values(livro)
 
+for (let i = 0; i < valores.length; i += 1){
+    console.log(`${chaves[i]} : ${valores[i]}`)
+}
+
+// for (let chave of Object.keys(livro)) {
+//     console.log(`${chave}: ${livro[chave]}`)
+// }
+
+// chaves.forEach(chave => console.log(`${chave} : ${livro[chave]}`))
