@@ -28,3 +28,12 @@ console.log(livro)
 // Imprima o titulo e o autor do livro.
 console.log(livro.titulo)
 console.log(livro.autor)
+
+// Use Object.keys() e Object.values() para 
+// imprimir as chaves e os valores do objeto livro.
+const chaves = Object.keys()
+const valores = Object.values()
+
+for (let i = 0; i < chaves.length; i += 1) {
+    console.log(`${chaves[i]}: ${valores[i]}`)
+}
