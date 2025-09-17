@@ -46,7 +46,11 @@ Para resolver estes exercícios, você deve criar um **Pull Request (PR)** diret
 
 1. Declare uma variável `nome` usando `let` e atribua a ela o seu nome.
 
+let nome = "Jeovana";
+
 1. Declare uma constante `anoNascimento` usando `const` e atribua a ela o seu ano de nascimento.
+
+const anoNacimento = "2007-01-04"
 
 1. Calcule a sua idade e armazene-a em uma variável `idade` usando `let`.
 
