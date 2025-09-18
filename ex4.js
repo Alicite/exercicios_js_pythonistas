@@ -1,3 +1,5 @@
+const { useCallback } = require("react");
+
 function soma(num1, num2) {
   return (`A soma dos dois números é: ${num1 + num2}`);
 }
@@ -17,8 +19,14 @@ function ehpar(num){
 console.log(ehpar(52))
 
 //parte 444444
-function aplicarOperacao(operacao){
-    console.log(num11, operacao, num22)
+function aplicarOperacao(callback, num11, num22){
+    return callback (num11, num22);
     
 
 }
+function somarV2(a, b) {
+    return a + b;
+}
+
+let resultadoSoma = aplicarOperacao(somarV2, 5, 3);
+console.log(`Soma: ${resultadoSoma}`);
